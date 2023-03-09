@@ -8,3 +8,9 @@ git branch : list of branches
 git checkout -b features/1234-new-killing-feature : create a new branch and switch to it
 git branch features/1234-new-killing-feature : switch to a branch
 git branch -d features/1234-new-killing-feature : delete a branch
+git remote add origin <url> : set remote url for a local repo
+git remote set-url origin <url> : update remote url for a local repo
+git Fetch : get all repository update
+git Pull : get update in code (fetch + merge)
+git push --set-upstream origin <branch> : push and add remote information for a local branch
+git push : push update to the repository
