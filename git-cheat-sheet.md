@@ -12,5 +12,5 @@ git remote add origin <url> : set remote url for a local repo
 git remote set-url origin <url> : update remote url for a local repo
 git Fetch : get all repository update
 git Pull : get update in code (fetch + merge)
-git push --set-upstream origin <branch> : push and add remote information for a local branch
+git push --set-upstream origin <branch> : add remote information for a local branch
 git push : push update to the repository
