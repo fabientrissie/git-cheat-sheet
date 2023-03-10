@@ -37,4 +37,3 @@ git merge <feature branch> : keep all commit and branch path
 git merge --squash <feature branch> : create a new commit (only one commit on main)
 
 git rebase : reexecute main commit on feature branch before merge to have a linear history
-
