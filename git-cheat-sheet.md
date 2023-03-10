@@ -31,5 +31,3 @@ git push --set-upstream origin <branch> : add remote information for a local bra
 git push : push update to the repository
 
 gh pr create --base main --head <branch> --title '<title>' --body '<description>' : create a pr to merge <branch> into main
-
-test
