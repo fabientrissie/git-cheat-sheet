@@ -32,5 +32,3 @@ git push : push update to the repository
 
 gh pr create --base main --head <branch> --title '<title>' --body '<description>' : create a pr to merge <branch> into main
 
-test
-
