@@ -32,4 +32,8 @@ git push : push update to the repository
 
 gh pr create --base main --head <branch> --title '<title>' --body '<description>' : create a pr to merge <branch> into main
 
-CODEOWNER are base on target branch
+git merge <feature branch> : keep all commit and branch path
+ 
+git merge --squash <feature branch> : create a new commit (only one commit on main)
+
+git rebase : reexecute main commit on feature branch before merge to have a linear history
